@@ -32,8 +32,6 @@ const demoAccounts = [
     { role: 'Admin', email: 'admin@kominfo.go.id', password: 'password' },
     { role: 'Operator Sekretariat', email: 'sekretariat@kominfo.go.id', password: 'password' },
     { role: 'Operator APTIKA', email: 'aptika@kominfo.go.id', password: 'password' },
-    { role: 'Operator IKP', email: 'ikp@kominfo.go.id', password: 'password' },
-    { role: 'Pimpinan', email: 'kadis@kominfo.go.id', password: 'password' },
 ];
 
 const fillDemo = (account) => {
