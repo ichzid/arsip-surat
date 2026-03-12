@@ -24,6 +24,9 @@ jobs:
             # Masuk ke direktori project di VPS
             cd /www/wwwroot/arsip-surat.ichmal.my.id
 
+            # Fix git safe directory
+            git config --global --add safe.directory /www/wwwroot/arsip-surat.ichmal.my.id
+
             # Pull perubahan terbaru dari GitHub
             git pull origin main
 
@@ -31,7 +34,7 @@ jobs:
             composer install --no-dev --optimize-autoloader --no-interaction
 
             # Install & build JS/CSS assets
-            npm install
+            npm install --legacy-peer-deps
             npm run build
 
             # Jalankan migrasi database (jika ada perubahan)
