@@ -226,4 +226,12 @@ Beberapa area yang masih bisa dikembangkan lebih lanjut:
 
 ---
 
+## Dukung Pengembangan
+
+Jika proyek ini bermanfaat dan Anda ingin mendukung pengembangan selanjutnya, Anda dapat memberikan dukungan melalui Saweria:
+
+https://saweria.co/ichzid
+
+---
+
 Dibuat untuk membantu instansi mengelola persuratan internal, disposisi, dan arsip digital secara lebih rapi, cepat, dan terstruktur.
